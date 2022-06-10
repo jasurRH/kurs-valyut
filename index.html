@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kurs valyut</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+  <h1 class="title my-5">kurs valyuta</h1>
+  <form class="js-form" method="post">
+    <input class="js-input mb-3" type="number" name="kurs_number" placeholder="o'zbek so'mida miqdor kiriting">
+    <select class="js-select" name="form_select">
+      <option disabled selected>Tanlang</option>
+      <option class="js-usd" value="usd">AQSH dollari</option>
+      <option class="js-euro" value="euro">EURO</option>
+      <option class="js-rubl" value="rubl">RUBl</option>
+    </select>
+
+    <button class="btn my-3" type="submit">submit</button>
+
+    <h2 class="js-result mb-3">natija</h2>
+  </form>
+
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
